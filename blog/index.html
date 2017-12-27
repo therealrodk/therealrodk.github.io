@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Dangerous 
-description: A dangerous site deserves a dangerous blog.
+title: Coding Bee 
+description: Sure you can spell, but can you code?
 ---
 
 <div class="page blog-index">
-  <h1>Dangerous Blog</h1>
+  <h1>Coding Bee<br/>
+  <span>Sure you can <em>spell</em>, but can you <strong>code?</strong></span></h1>
   <div class="col-two blog-cols">
     <div class="col col-aside blog-recent">
       <h4>Recent Posts</h4>
@@ -17,12 +18,9 @@ description: A dangerous site deserves a dangerous blog.
           <header class="post-header">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="post-byline">
-              <img src="{{ post.gravatar }}" />
-              <a href="{{ post.authorTwitter }}" class="social-link">
-                <i class="fa fa-twitter"></i>
-              </a>
+              <img src="https://gravatar.com/avatar/0198ea4f45d3eb210d0d35bf33e7dd31?s=150" />
               <p>by {{ post.author }}</p>
-              <span>{{ post.date | date: '%B %d, %Y' }}</span>
+              <p>{{ post.date | date: '%B %d, %Y' }}</p>
             </div>
           </header>
           <div class="posts-image"
