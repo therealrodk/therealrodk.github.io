@@ -42,6 +42,9 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
+.post-content p {
+  min-height: 175px;
+}
 h2 ~ p {
   font-size: 0.8em;
   font-style: italic;
@@ -414,7 +417,7 @@ h2 ~ p {
   height: 2.5em;
   vertical-align: middle;
 }
-.posts-image {
+.posts-image { /* Main image for posts */
   background-position: center;
   background-size: cover;
   height: 6em;
@@ -460,6 +463,14 @@ h2 ~ p {
 .post-byline,
 .post-header h2 {
   text-align: center;
+}
+.post-image { /* Small images within posts */
+  width: 175px;
+  margin-top: 0;
+}
+.tools-used {
+  color: #777;
+  font-style: italic;
 }
 
 /* HOMEPAGE STYLES */
@@ -731,5 +742,11 @@ h2 ~ p {
     top: 1.5em;
     width: 100%;
     text-align: center;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .post-image {
+    display: block;
   }
 }
