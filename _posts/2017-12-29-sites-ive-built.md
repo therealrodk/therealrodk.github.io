@@ -23,7 +23,7 @@ postFooter: 'Soundtrack: "<a href="https://www.youtube.com/watch?v=7VnDDWSdnS8&l
 <p><img class="post-image pull-left" src="/images/sample-app.png"
      alt="Sample App Page">
 
-If you log into <a href="https://nameless-gorge-57504.herokuapp.com">nameless-gorge-57504.herokuapp.com</a>, you will see that it is a Twitter-like app that allows registered users to post short, appropriately-named, microposts, and to follow each other. (Log in using example@railstutorial.org, foobar) Made with <span class="tools-used">Ruby on Rails, CSS/Sass, HTML5, Coffeescript, AJAX.</span></p>
+If you log into <a href="https://nameless-gorge-57504.herokuapp.com">nameless-gorge-57504.herokuapp.com</a>, you will see that it is a Twitter-like app that allows registered users to post short, appropriately-named, microposts, and to follow each other. (Log in using example@railstutorial.org, foobar) Made with <span class="tools-used">Ruby on Rails, CSS, HTML5, SQL.</span></p>
 
 <!--
 
