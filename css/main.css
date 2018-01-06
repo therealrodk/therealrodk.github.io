@@ -43,8 +43,22 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
-.post-content p {
-  min-height: 175px;
+.text-image-list { /* Contains the below pairings */
+  
+}
+.text-image-list p {
+
+}
+.text-with-image { /* This is the p that contains the img+text */
+  padding: 10px;
+  border-top: 1px dotted gray;
+}
+/*.text-with-image p {
+  float: left;
+  margin: 0;
+}*/
+.text-with-image img {
+  float: left;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -52,6 +66,17 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+.notice {
+  text-align: left;
+  color: red;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.group:after { /* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* HEADER STYLES */
@@ -747,7 +772,7 @@ h2 ~ p {
 }
 
 @media (max-width: 575.99px) {
-  .post-image {
+  .text-with-image img {
     display: block;
   }
 }
