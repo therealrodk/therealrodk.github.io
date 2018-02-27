@@ -8,7 +8,7 @@ postFooter: <iframe width="560" height="315" src="https://www.youtube.com/embed/
 
 ### Finished!
 
-I turned in my capstone project to Bottega Tech over the weekend, and was excited to hear back today that it was accepted and approved. I am now a <em>certified</em> Full Stack Web Developer! Yay!
+I turned in my capstone project to <a href="https://bottega.tech/" target="_blank">Bottega Tech</a> over the weekend, and was excited to hear back today that it was accepted and approved. I am now a <em>certified</em> Full Stack Web Developer! Yay!
 
 For my project I created a website for a client. Feel free to check it out here: <a href="http://pollysbirthbook.com" target="_blank">pollysbirthbook.com</a>. The client sells several books, with a focus on one specific book–the website's namesake–so all books needed to be readily available but the main focus of the design had to be on the primary book.
 
@@ -23,6 +23,8 @@ In keeping with DRY (Don't Repeat Yourself) principles, and keeping the focus on
 ### Picture This
 
 Clicking on the 'Store' link in the main menu will display a list of all the books currently available. When the Admin logs in, she is able to add new books, including uploading cover images. For this, I installed the <a href="https://rubygems.org/gems/carrierwave" target="_blank">Carrierwave</a> gem and set specific sizes for the main Product images and thumbnail images. In my local development, I implemented some internal logic that displays placeholder images from <a href="https://placeholder.com/" target="_blank">placeholder.com</a>, set to the thumbnail size.
+
+Prior to upload, I manually optimized the client's images with <a href="https://tinypng.com/" target="_blank">tinypng</a>. Their service is amazing! One 300kb image shrank down to about 75kb *without any quality loss!* In the future, I am considering connecting this client's app with the tinypng API so that images are automatically optimized on upload, but I didn't want feature creep to slow me down, so I have saved this for a possible future implementation. If you have never used tinypng, check them out! I also use their service for this portfolio site, which enables me to load images with ridiculously large dimensions very quickly.
 
 Unfortunately, when attempting to upload the site to <a href="https://www.heroku.com/" target="_blank">Heroku</a> later, I discovered that they do not allow local image storage, so I had to exchange the Carrierwave gem for <a href="https://rubygems.org/gems/carrierwave-aws" target="_blank">Carrierwave-AWS</a>, so that I could store the images on Amazon's S3. Luckily, this was an easy process.
 
