@@ -632,6 +632,10 @@ h2 ~ p {
 .footer .drop-trigger {
   padding-right: 0;
 }
+iframe {
+  width: 560px;
+  height: 315px;
+}
 
                       /* MEDIA QUERIES */
 @media (max-width: 800px) {
@@ -775,5 +779,9 @@ h2 ~ p {
 @media (max-width: 575.99px) {
   .text-with-image img {
     display: block;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }

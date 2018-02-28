@@ -3,7 +3,7 @@ layout: post
 title: My Capstone Project
 postHero: /images/celebration.jpg
 author: THEREALRODK
-postFooter: <iframe width="560" height="315" src="https://www.youtube.com/embed/6fHA-WO_K-c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+postFooter: <iframe src="https://www.youtube.com/embed/6fHA-WO_K-c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ---
 
 ### Finished!
