@@ -31,7 +31,7 @@ You will also notice, beneath the large word at the top, that it says "Also some
 
 Of course, to help alleviate the problem, I also implemented JavaScript buttons above the search bar that allow the user to add the appropriate letters as they type. The four buttons grouped together on the left are letters that are preferred by Oklahoma Choctaws today, and the three on the right are those used by Cyrus Byington when he wrote the Choctaw Dictionary back in the 1800's. Mississippi Choctaws use an entirely different set of letters.
 
-Speaking of learning modules, notice the one with the heading "Test Your Knowledge." This module pulls a random Example sentence from one of the Entries in the database and displays it. Then, in random order, it displays that Examples correct English translation along with the translations of two other Entries. This was a challenging bit of code, but very fulfilling to see in practice!
+Speaking of learning modules, notice the one with the heading "Test Your Knowledge." This module pulls a random Example sentence from one of the Entries in the database and displays it. Then, in random order, it displays that Example's correct English translation along with the translations of two other Entries. This was a challenging bit of code, but very fulfilling to see in practice!
 
 ### Future
 
