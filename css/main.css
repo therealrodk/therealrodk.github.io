@@ -327,9 +327,13 @@ h2 ~ p {
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
-  margin: auto;
-  max-width: 960px;
+  margin: 0 auto;
+  /*max-width: 960px;*/
+  width: 315px;
   overflow: hidden;
+}
+.bio-wrapper img {
+  max-width: 100px;
 }
 .bio-box {
   box-sizing: border-box;
@@ -346,7 +350,8 @@ h2 ~ p {
   text-transform: uppercase;
 }
 .bio-box img {
-  width: 100%;
+  /*width: 100%;*/
+  max-width: 100px;
 }
 .bio-box .social-link {
   display: block;

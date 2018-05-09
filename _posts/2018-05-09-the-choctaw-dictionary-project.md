@@ -1,0 +1,47 @@
+---
+layout: post
+title: The Choctaw Dictionary Project
+postHero: /images/lots-of-books.jpg
+author: THEREALRODK
+postFooter: <iframe src="https://www.youtube.com/embed/AC1FVEktxDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+---
+
+### Past
+
+Many people think of Indians/Native Americans as relics of the past. As a member of the <a href="https://www.choctawnation.com/" target="_blank" rel="noopener">Choctaw Nation of Oklahoma</a>, I think this is shameful. One part of the problem is that many of us have merged with the dominant culture around us and therefore don't really stand out like the "Injuns" from Hollywood. This merging has caused a shift away from traditional language and cultural practices. It is my belief that this shift was intentional, but thankfully many people in the last several decades have begun to work against that, and begin a process of restoral.
+
+My own family joined the U.S. military and left Choctaw territory many years ago, so I have yet to even set foot there. Likewise, I never learned to speak Choctaw growing up. Thankfully, the tribe has begun to teach online classes, and I have been learning. As a coder, this has ignited a desire within me to use my abilities to help further Choctaw language education.
+
+I attempted to create a Choctaw dictionary several times in the past, on different platforms, but there was always something jamming up the works: special alphabet requirements, alternative spellings, and other things those platforms were unable to handle. Recently, I realized that Ruby on Rails is the perfect platform because it allows me the power and flexibility to address these issues, as needed.
+
+### Present
+
+<img class="pull-left" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Choctaw_flag.gif"
+     alt="Flag of the Choctaw Nation of Oklahoma">
+
+You can see the present state of my Choctaw Dictionary Project <a href="https://protected-dawn-54119.herokuapp.com/" target="_blank" rel="noopener">on Heroku</a> while I work on it. Though there's nothing actually *wrong* with the design, that has not been my focus, and I intend to revisit it at some point. Instead, I have been focusing on functionality–all of the behind-the-scenes stuff that make it *work*–since that was what gummed up the project all the other times I visited the issue.
+
+I am using the <a href="https://rubygems.org/gems/ransack" target="_blank" rel="noopener">ransack gem</a> for searching. This took some playing around with, but I eventually got it to search different models. The real trick here, actually, was figuring out how to send the user to the Entry page when there was only one result, instead of displaying a results page with *one* result.
+
+Another tricky proposition had to do with the fact that, in Choctaw, a single word frequently has multiple uses as different parts of speech (i.e, as a noun, verb, adverb, etc), and each of these requires its own definition. English has this, too, of course. In order to more easily propagate the learning modules at the bottom of the homepage–that pull and display nouns, verbs, etc.–I set it up so that each part of speech is its own Entry, which has the effect of making each version appear in the system as a separate word. I worked around this by combining exact word matches in the Controller so that they also redirect to the Entry as if there had been only one. Then, on the Show page, every Entry for that word is displayed in sequence.
+
+For an example, copy and paste *ʋni* into the search bar and press enter. You will see definitions of the word as a noun, transitive verb, and active intransitive verb. These are all actually separate Entries in the database, but made to work together as one.
+
+You will also notice, beneath the large word at the top, that it says "Also sometimes spelled:" and there are some alternative spellings listed. I chose to implement this feature because the Choctaw language does not have standardized spelling, and because it uses some uncommon letters, such as the upsilon (ʋ), though not everyone has the ability to type them into the search. A common practice has been to use the letter v in place of the upsilon, and having this version listed as an alternative allows users to find the word by typing 'vni'.
+
+Of course, to help alleviate the problem, I also implemented JavaScript buttons above the search bar that allow the user to add the appropriate letters as they type. The four buttons grouped together on the left are letters that are preferred by Oklahoma Choctaws today, and the three on the right are those used by Cyrus Byington when he wrote the Choctaw Dictionary back in the 1800's. Mississippi Choctaws use an entirely different set of letters.
+
+### Future
+
+It is my hope to see this Choctaw Dictionary finished, because I wish to see our language one day become as common as English among our people. A dictionary is commonplace to English-speakers, and as I mentioned above, Choctaws have had one for about 150 years, but it was written and compiled by a non-native speaker, and it is actually not the easiest to use. This makes it unavailable to most Choctaws, especially the youth, who need it most. Having this online puts it right where it is most accessible: children can access it with devices at school, and adults can pull it up on their laptop, phone, or desktop.
+
+Some features I would like to see implemented in the future include audio recordings (for pronunciation) and supporting images.
+
+
+<!--
+
+Use this to place images within the article. Use the pull-left and pull-right classes for placement.
+
+<img class="pull-left" src="http://placekitten.com/g/400/200"
+     alt="kitten">
+-->
