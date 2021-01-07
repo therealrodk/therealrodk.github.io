@@ -3,7 +3,7 @@ layout: post
 title: What I've Learned The Past Three Years
 postHero: /images/train-on-rails.jpg
 author: THEREALRODK
-postFooter: <iframe width="817" height="460" src="https://www.youtube.com/embed/hXNWa9E9vN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+postFooter: <a href="https://www.youtube.com/embed/hXNWa9E9vN8" target="_blank" rel="noopener">Cowboy Bebop OST</a>
 ---
 
 ### Where Ya Been?
