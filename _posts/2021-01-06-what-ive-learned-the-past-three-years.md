@@ -16,7 +16,7 @@ To begin with, I was hired immediately after my last post, so I did not have tim
 
 ### Moving On
 
-<img class="pull-right" src="https://images.unsplash.com/photo-1509453721491-c3af5961df76?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2775&q=80" alt="Yellow hard hats" style="max-width: 300px;">
+<img class="pull-left" src="https://images.unsplash.com/photo-1509453721491-c3af5961df76?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2775&q=80" alt="Yellow hard hats" style="max-width: 300px;">
 
 This gave me the chance to focus on my new job, which was for a company that makes training courses mainly for the construction industry. I had the opportunity to build an eCommerce site, a video training platform, and an internal coporate site, all in Rails, among other things.
 
@@ -34,7 +34,7 @@ This was a fun problem to solve and it was fulfilling to find a solution. The en
 
 ### WordUp
 
-<img class="pull-right" src="https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJva2VuJTIwY29tcHV0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Computer with 404 page" style="max-width: 300px;">
+<img class="pull-left" src="https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJva2VuJTIwY29tcHV0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Computer with 404 page" style="max-width: 300px;">
 
 As the head of the web development department, I had three employees who worked under me. They were responsible for maintaining the company's WordPress website, with my guidance and assistance. Coming from a full-stack background, WordPress was occasionally frustrating, considering how easy it is to do certain things in Rails, like dynamically load information from a database, or make and use templates. It is also a challenge knowing that you have no control over the code in the plugins you use, and that they can potentially break everything else on your website with a minor update.
 
@@ -44,13 +44,13 @@ Thankfully, we found a third-party backup solution that also gave us a staging e
 
 ### Backin' Up
 
-<img class="pull-right" src="https://images.unsplash.com/photo-1562414962-a6b4f966070d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhY2t1cHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="A computer hard drive split in two" style="max-width: 300px;">
+<img class="pull-left" src="https://images.unsplash.com/photo-1562414962-a6b4f966070d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhY2t1cHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="A computer hard drive split in two" style="max-width: 300px;">
 
 I was also responsible for maintaining the NAS (network attached storage) where all of our data was stored locally, including making sure everything was backed up off-site (ie, in the "cloud"). At first, we backed everything up to Amazon S3. This process was really easy, but took a *very* long time (most of a month, I think) to transfer a couple gigabytes of data to their servers. It also got pretty expensive, pretty quickly. Later, another developer introduced me to <a href="https://wasabi.com/" target="_blank" rel="noopener">Wasabi</a>. They claim to be 80% cheaper. They do not lie. Before leaving this company, I was able to get their backups migrated to Wasabi, and save them a lot of money.
 
 ### Letting GoRails
 
-<img class="pull-right" src="https://d2i2nj5el4wq1j.cloudfront.net/assets/logo-a191a70fa781dc8b50cda97f97d8613b74079a5f7775ee51d78b06f4ee2fa9ac.svg" alt="The GoRails.com logo" style="max-width: 300px;">
+<img class="pull-left" src="https://d2i2nj5el4wq1j.cloudfront.net/assets/logo-a191a70fa781dc8b50cda97f97d8613b74079a5f7775ee51d78b06f4ee2fa9ac.svg" alt="The GoRails.com logo" style="max-width: 300px;">
 
 During this time, I discovered the <a href="https://gorails.com/" target="_blank" rel="noopener">GoRails</a> website. This is an amazing resource! Chris, the guy who runs the site, is really talented, really kind, and always willing to offer advice on his associated Slack channel. The community is also fantastic, and there is always someone to lend an ear, or make suggestions for improving code or finding solutions. I highly recommend GoRails!
 
@@ -58,7 +58,7 @@ During this time, I discovered the <a href="https://gorails.com/" target="_blank
 
 ### Pig Tales
 
-<img class="pull-right" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg" alt="The Porkbun.com logo" style="max-width: 300px;">
+<img class="pull-left" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg" alt="The Porkbun.com logo" style="max-width: 300px;">
 
 One other fantastic resource I discoverd over these few years is <a href="https://porkbun.com" target="_blank" rel="noopener">Porkbun</a>. (*Again, not an affiliate…*) These guys are the easiest DNS I have ever used. I eventually was able to migrate all of our many domains names, save one, from the horrid GoDaddy to Porkbun, and never regretted it. This was no small feat, by the way, as GoDaddy's ever-changing requirements meant that it sometimes took _days_, literally, to migrate a single domain name. Bleh. Oh, and Porkbun's prices are some of the lowest I have ever seen, as well, which was nice.
 
