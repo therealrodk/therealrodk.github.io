@@ -3,7 +3,7 @@ layout: post
 title: What I've Learned The Past Three Years
 postHero: /images/train-on-rails.jpg
 author: THEREALRODK
-postFooter: <iframe src="https://www.youtube.com/watch?v=hXNWa9E9vN8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+postFooter: <iframe width="817" height="460" src="https://www.youtube.com/embed/hXNWa9E9vN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
 ### Where Ya Been?
