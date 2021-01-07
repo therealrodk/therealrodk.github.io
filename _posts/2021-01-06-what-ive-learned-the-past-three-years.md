@@ -60,7 +60,7 @@ During this time, I discovered the <a href="https://gorails.com/" target="_blank
 
 <img class="pull-left" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg" alt="The Porkbun.com logo" style="max-width: 300px;">
 
-One other fantastic resource I discoverd over these few years is <a href="https://porkbun.com" target="_blank" rel="noopener">Porkbun</a>. (*Again, not an affiliate…*) These guys are the easiest DNS I have ever used. I eventually was able to migrate all of our many domains names, save one, from the horrid GoDaddy to Porkbun, and never regretted it. This was no small feat, by the way, as GoDaddy's ever-changing requirements meant that it sometimes took _days_, literally, to migrate a single domain name. Bleh. Oh, and Porkbun's prices are some of the lowest I have ever seen, as well, which was nice.
+One other fantastic resource I discovered over these few years is <a href="https://porkbun.com" target="_blank" rel="noopener">Porkbun</a>. (*Again, not an affiliate…*) These guys are the easiest DNS I have ever used. I eventually was able to migrate all of our many domains names, save one, from the horrid GoDaddy to Porkbun, and never regretted it. This was no small feat, by the way, as GoDaddy's ever-changing requirements meant that it sometimes took _days_, literally, to migrate a single domain name. Bleh. Oh, and Porkbun's prices are some of the lowest I have ever seen, as well, which was nice.
 
 ### Final Thoughts
 
